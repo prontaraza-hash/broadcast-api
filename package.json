@@ -1,0 +1,14 @@
+{
+    "name": "broadcast-api",
+    "version": "1.0.0",
+    "description": "Backend for Line OA Broadcast CMS System",
+    "main": "backend-server.js",
+    "scripts": {
+          "start": "node backend-server.js"
+    },
+    "dependencies": {
+          "express": "^4.18.0",
+          "mongodb": "^4.0.0",
+          "dotenv": "^16.0.0"
+    }
+}
